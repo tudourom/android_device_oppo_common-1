@@ -69,6 +69,7 @@
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Переключатель уведомлений</string>
   <string name="notification_slider_ignore_auto_title">Отключить во время использования правил</string>
+  <string name="notification_slider_ignore_auto_summary">Игнорировать переключатель, если настроены автоматические правила</string>
   <string name="notification_slider_selection_dialog_title">Действие</string>
   <string name="notification_slider_top_position">Верхнее положение</string>
   <string name="notification_slider_middle_position">Среднее положение</string>
