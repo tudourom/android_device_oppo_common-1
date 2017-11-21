@@ -65,8 +65,10 @@
   <string name="button_panel_title">Дополнительные кнопки</string>
   <string name="button_swap_title">Поменять кнопки местами</string>
   <string name="button_swap_summary">Поменять местами кнопки «Обзор» и «Назад»</string>
+  <string name="buttons_dashboard_summary">Поменять местами кнопки и настроить переключатель уведомлений</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">Переключатель уведомл.</string>
+  <string name="notification_slider_category_title">Переключатель уведомлений</string>
+  <string name="notification_slider_ignore_auto_title">Отключить во время использования правил</string>
   <string name="notification_slider_selection_dialog_title">Действие</string>
   <string name="notification_slider_top_position">Верхнее положение</string>
   <string name="notification_slider_middle_position">Среднее положение</string>
