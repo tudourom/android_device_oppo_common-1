@@ -24,9 +24,15 @@
   <string name="touchpad_double_tap_title">Двойное нажатие для съёмки</string>
   <string name="touchpad_double_tap_summary">В приложении «Камера» дважды нажмите на сенсорную панель, чтобы сделать снимок</string>
   <!-- Gesture shortcuts -->
+  <string name="screen_gestures_panel_title">Жесты OnePlus</string>
+  <string name="gestures_dashboard_summary">Жесты устройств OnePlus</string>
   <string name="touchscreen_camera_gesture_title">Камера</string>
   <string name="touchscreen_camera_gesture_summary">Нарисуйте круг для запуска камеры</string>
   <string name="touchscreen_music_gesture_title">Музыка</string>
+  <string name="touchscreen_music_gesture_summary">Использовать жесты для управления музыкой \n
+    • Двумя пальцами вверх для воспроизведения/паузы\n
+    • Нарисовать стрелку влево (\'&#60;\') для предыдущего трека\n
+    • Нарисовать стрелку вправо (\'&#62;\') для следующего трека</string>
   <string name="touchscreen_flashlight_gesture_title">Фонарик</string>
   <string name="touchscreen_flashlight_gesture_summary">Нарисуйте букву «V», чтобы включить или выключить фонарик</string>
   <!-- O-Click settings -->
@@ -51,12 +57,19 @@
   <string name="oclick_notification_title_connected">Устройство O-Click подключено</string>
   <string name="oclick_notification_title_disconnected">Устройство O-Click отключено</string>
   <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click, чтобы повторно подключиться</string>
+  <!-- haptic feedback  -->
+    <string name="touchscreen_extras">Дополнительно</string>
+    <string name="haptic_feedback">Виброотклик</string>
+    <string name="haptic_feedback_summary">Вибрировать при использовании жеста</string>
   <!-- Button settings -->
   <string name="button_panel_title">Дополнительные кнопки</string>
   <string name="button_swap_title">Поменять кнопки местами</string>
   <string name="button_swap_summary">Поменять местами кнопки «Обзор» и «Назад»</string>
+  <string name="buttons_dashboard_summary">Кнопки и переключатель уведомлений</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">Переключатель уведомл.</string>
+  <string name="notification_slider_category_title">Переключатель уведомлений</string>
+  <string name="notification_slider_ignore_auto_title">Отключить во время использования правил</string>
+  <string name="notification_slider_ignore_auto_summary">Игнорировать переключатель, если настроены автоматические правила</string>
   <string name="notification_slider_selection_dialog_title">Действие</string>
   <string name="notification_slider_top_position">Верхнее положение</string>
   <string name="notification_slider_middle_position">Среднее положение</string>
@@ -65,4 +78,6 @@
   <string name="notification_slider_mode_alarms_only">Только будильник</string>
   <string name="notification_slider_mode_priority_only">Только важные</string>
   <string name="notification_slider_mode_none">Отключено</string>
+  <string name="notification_slider_mode_vibrate">Вибрация</string>
+  <string name="notification_slider_mode_ring">Звонок</string>
 </resources>
