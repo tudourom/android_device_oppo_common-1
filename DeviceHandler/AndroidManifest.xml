@@ -22,6 +22,23 @@
         <activity android:name=".KeyHandler" />
 
         <activity
+            android:name=".settings.SliderSettings"
+            android:theme="@style/DeviceHandlerTheme"
+            android:label="@string/notification_slider_title">
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_additional_buttons" />
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/notification_slider_summary" />
+        </activity>
+
+        <activity
             android:name=".settings.ScreenOffGestureSettings"
             android:label="@string/screen_off_gesture_title"
             android:theme="@style/DeviceHandlerTheme">
@@ -34,21 +51,8 @@
           <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.homepage" />
-        </activity>
-
-        <activity
-            android:name=".settings.SliderSettings"
-            android:theme="@style/DeviceHandlerTheme"
-            android:label="@string/notification_slider">
-            <intent-filter>
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_settings_additional_buttons" />
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.homepage" />
+          <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/screen_off_gesture_summary" />
         </activity>
 
         <receiver android:name=".BootReceiver" >

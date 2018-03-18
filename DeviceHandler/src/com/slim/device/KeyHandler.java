@@ -18,6 +18,7 @@ package com.slim.device;
 import android.app.Activity;
 import android.app.NotificationManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.SharedPreferences;
 import android.hardware.Sensor;
@@ -41,8 +42,8 @@ import com.slim.device.settings.ScreenOffGesture;
 
 import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
-import com.android.internal.util.gzosp.ActionConstants;
-import com.android.internal.util.gzosp.Action;
+import com.android.internal.util.liquid.ActionConstants;
+import com.android.internal.util.liquid.Action;
 
 public class KeyHandler implements DeviceKeyHandler {
 
@@ -265,4 +266,28 @@ public class KeyHandler implements DeviceKeyHandler {
         }, mProximitySensor, SensorManager.SENSOR_DELAY_FASTEST);
     }
 
+    @Override
+    public boolean canHandleKeyEvent(KeyEvent event) {
+    	return false;
+    }
+
+    @Override
+    public boolean isCameraLaunchEvent(KeyEvent event) {
+    	return false;
+    }
+
+    @Override
+    public boolean isWakeEvent(KeyEvent event) {
+    	return false;
+    }
+
+    @Override
+    public boolean isDisabledKeyEvent(KeyEvent event) {
+    	return false;
+    }
+
+    @Override
+    public Intent isActivityLaunchEvent(KeyEvent event) {
+        return null;
+    }
 }

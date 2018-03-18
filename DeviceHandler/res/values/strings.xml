@@ -22,9 +22,9 @@
     <string name="reset_message">Reset all entries to default?</string>
 
     <string name="screen_off_gesture_title">Screen off gestures</string>
+    <string name="screen_off_gesture_summary">Gesture specific to OnePlus devices</string>
     <string name="group_applications">Applications</string>
     <string name="select_custom_app_title">Select custom application</string>
-
 
     <string name="enable_gestures_title">Enable gestures</string>
     <string name="enable_gestures_summary">Enable screen off gestures</string>
@@ -38,7 +38,8 @@
     <string name="gesture_double_tap_title">Double tap</string>
 
      <!-- Notification slider -->
-    <string name="notification_slider">Notification slider</string>
+    <string name="notification_slider_title">Notification slider</string>
+    <string name="notification_slider_summary">Slider specific to OnePlus devices</string>
     <string name="action">Action</string>
 
     <string name="top_position">Top position</string>
