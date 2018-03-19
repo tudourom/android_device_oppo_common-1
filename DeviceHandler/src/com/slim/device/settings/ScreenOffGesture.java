@@ -139,10 +139,10 @@ public class ScreenOffGesture extends PreferenceFragment implements
                 .getString(PREF_GESTURE_CIRCLE, ActionConstants.ACTION_CAMERA));
         setupOrUpdatePreference(mGestureDoubleSwipe, mScreenOffGestureSharedPreferences
                 .getString(PREF_GESTURE_DOUBLE_SWIPE, ActionConstants.ACTION_MEDIA_PLAY_PAUSE));
-        setupOrUpdatePreference(mGestureArrowUp, mScreenOffGestureSharedPreferences
-                    .getString(PREF_GESTURE_ARROW_UP, ActionConstants.ACTION_TORCH));
         setupOrUpdatePreference(mGestureArrowDown, mScreenOffGestureSharedPreferences
-                .getString(PREF_GESTURE_ARROW_DOWN, ActionConstants.ACTION_VIB_SILENT));
+                .getString(PREF_GESTURE_ARROW_DOWN, ActionConstants.ACTION_TORCH));
+        setupOrUpdatePreference(mGestureArrowUp, mScreenOffGestureSharedPreferences
+                .getString(PREF_GESTURE_ARROW_UP, ActionConstants.ACTION_VIB_SILENT));
         setupOrUpdatePreference(mGestureArrowLeft, mScreenOffGestureSharedPreferences
                 .getString(PREF_GESTURE_ARROW_LEFT, ActionConstants.ACTION_MEDIA_PREVIOUS));
         setupOrUpdatePreference(mGestureArrowRight, mScreenOffGestureSharedPreferences
@@ -238,9 +238,9 @@ public class ScreenOffGesture extends PreferenceFragment implements
                 ActionConstants.ACTION_CAMERA).commit();
         editor.putString(PREF_GESTURE_DOUBLE_SWIPE,
                 ActionConstants.ACTION_MEDIA_PLAY_PAUSE).commit();
-        editor.putString(PREF_GESTURE_ARROW_UP,
-                ActionConstants.ACTION_TORCH).commit();
         editor.putString(PREF_GESTURE_ARROW_DOWN,
+                ActionConstants.ACTION_TORCH).commit();
+        editor.putString(PREF_GESTURE_ARROW_UP,
                 ActionConstants.ACTION_VIB_SILENT).commit();
         editor.putString(PREF_GESTURE_ARROW_LEFT,
                 ActionConstants.ACTION_MEDIA_PREVIOUS).commit();
